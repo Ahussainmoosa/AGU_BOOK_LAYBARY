@@ -1,0 +1,59 @@
+/* BookingCreate.css */
+
+:root {
+  --agu-blue: #003a8f;
+  --border-light: #e5e7eb;
+  --bg-light: #f9fafb;
+}
+
+.booking-create {
+  max-width: 520px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.booking-create h2 {
+  color: var(--agu-blue);
+  margin-bottom: 1rem;
+}
+
+.booking-create p {
+  margin-bottom: 1rem;
+}
+
+.booking-create form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.booking-create input {
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  background: var(--bg-light);
+  font-size: 0.95rem;
+}
+
+.booking-create input:focus {
+  outline: none;
+  border-color: var(--agu-blue);
+  background: #fff;
+}
+
+.booking-create button {
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  background: var(--agu-blue);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.booking-create button:hover {
+  background: #002f73;
+}

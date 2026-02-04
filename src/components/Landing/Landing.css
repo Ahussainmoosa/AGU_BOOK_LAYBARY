@@ -1,0 +1,28 @@
+/* Landing.css */
+
+:root {
+  --agu-blue: #003a8f;
+}
+
+.landing {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.landing img {
+  max-width: 420px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+}
+
+.landing p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--agu-blue);
+}

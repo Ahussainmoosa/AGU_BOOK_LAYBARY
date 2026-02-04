@@ -1,0 +1,77 @@
+/* PropertiesEdit.css */
+
+:root {
+  --agu-blue: #003a8f;
+  --border-light: #e5e7eb;
+  --bg-light: #f9fafb;
+  --danger: #b91c1c;
+}
+
+.edit-book {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.edit-book h2 {
+  color: var(--agu-blue);
+  margin-bottom: 1.5rem;
+}
+
+.upload-box {
+  margin-bottom: 20px;
+  padding: 30px;
+  border: 2px dashed var(--border-light);
+  border-radius: 8px;
+  text-align: center;
+  background: var(--bg-light);
+}
+
+.upload-box input {
+  margin-top: 0.6rem;
+}
+
+.edit-book form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.edit-book input,
+.edit-book textarea {
+  padding: 0.7rem 0.8rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  background: var(--bg-light);
+}
+
+.edit-book input:focus,
+.edit-book textarea:focus {
+  outline: none;
+  border-color: var(--agu-blue);
+  background: #fff;
+}
+
+.edit-book button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: var(--agu-blue);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.edit-book button:hover {
+  background: #002f73;
+}
+
+.delete-btn {
+  margin-top: 20px;
+  background: var(--danger);
+}

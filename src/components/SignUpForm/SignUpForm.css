@@ -1,0 +1,89 @@
+/* SignUpForm.css */
+
+:root {
+  --agu-blue: #003a8f;
+  --agu-gold: #c9a227;
+  --text-dark: #1f2937;
+  --border-light: #e5e7eb;
+  --bg-light: #f9fafb;
+}
+
+main {
+  max-width: 420px;
+  margin: 4rem auto;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  color: var(--agu-blue);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+p {
+  min-height: 1.2rem;
+  color: #b91c1c;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+input {
+  padding: 0.65rem 0.75rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  background: var(--bg-light);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--agu-blue);
+  box-shadow: 0 0 0 2px rgba(0, 58, 143, 0.15);
+  background: #fff;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+button[type="submit"] {
+  background: var(--agu-blue);
+  color: #fff;
+  font-weight: 500;
+}
+
+button[type="submit"]:hover:not(:disabled) {
+  background: #002f73;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button[type="button"] {
+  background: transparent;
+  color: var(--agu-blue);
+  border: 1px solid var(--agu-blue);
+}
+
+button[type="button"]:hover {
+  background: rgba(0, 58, 143, 0.05);
+}

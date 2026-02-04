@@ -1,0 +1,62 @@
+/* UserSettings.css */
+
+:root {
+  --agu-blue: #003a8f;
+  --agu-gold: #c9a227;
+  --border-light: #e5e7eb;
+  --bg-light: #f9fafb;
+  --text-dark: #1f2937;
+}
+
+.settings-layout {
+  display: flex;
+  min-height: 70vh;
+  background: var(--bg-light);
+}
+
+.settings-sidebar {
+  width: 220px;
+  background: #fff;
+  border-right: 1px solid var(--border-light);
+  padding: 20px;
+}
+
+.settings-sidebar h3 {
+  color: var(--agu-blue);
+  margin-bottom: 1rem;
+}
+
+.settings-sidebar button {
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 4px;
+  background: var(--agu-blue);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.settings-sidebar button:hover {
+  background: #002f73;
+}
+
+.status-pending {
+  color: orange;
+  margin-top: 0.8rem;
+}
+
+.status-rejected {
+  color: red;
+  margin-top: 0.8rem;
+}
+
+.settings-main {
+  flex: 1;
+  padding: 30px;
+}
+
+.settings-main h2 {
+  color: var(--agu-blue);
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,62 @@
+/* Properties.css */
+
+:root {
+  --agu-blue: #003a8f;
+  --border-light: #e5e7eb;
+  --bg-light: #f9fafb;
+}
+
+.create-book {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.create-book h2 {
+  color: var(--agu-blue);
+  margin-bottom: 1.5rem;
+}
+
+.create-book form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.create-book input,
+.create-book textarea {
+  padding: 0.7rem 0.8rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  background: var(--bg-light);
+}
+
+.create-book input:focus,
+.create-book textarea:focus {
+  outline: none;
+  border-color: var(--agu-blue);
+  background: #fff;
+}
+
+.create-book button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: var(--agu-blue);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.create-book button:hover {
+  background: #002f73;
+}
+
+.create-book p {
+  margin-top: 1rem;
+}

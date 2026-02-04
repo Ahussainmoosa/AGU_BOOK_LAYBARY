@@ -1,0 +1,43 @@
+/* UserBookingHistory.css – ADD yellow highlight */
+
+:root {
+  --agu-blue: #003a8f;
+  --agu-gold: #c9a227;
+  --border-light: #e5e7eb;
+}
+
+.user-bookings {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+.user-bookings h2 {
+  color: var(--agu-blue);
+  margin-bottom: 1.5rem;
+}
+
+.user-booking-card {
+  background: #fff;
+  border: 1px solid var(--agu-gold); /* ✅ yellow line */
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.user-booking-card strong {
+  color: var(--agu-blue);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.user-booking-card p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+.user-booking-card span,
+.user-booking-card p b {
+  color: var(--agu-gold); /* ✅ yellow numbers */
+  font-weight: 600;
+}

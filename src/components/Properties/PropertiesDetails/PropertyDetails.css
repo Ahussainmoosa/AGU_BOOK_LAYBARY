@@ -1,0 +1,80 @@
+/* PropertyDetails.css */
+
+:root {
+  --agu-blue: #003a8f;
+  --border-light: #e5e7eb;
+  --bg-light: #f9fafb;
+}
+
+.book-details {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.book-details h1 {
+  color: var(--agu-blue);
+  margin-bottom: 1.2rem;
+}
+
+.book-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.book-gallery img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.gallery-placeholder {
+  grid-column: 1 / -1;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--border-light);
+  border-radius: 8px;
+  color: #888;
+}
+
+.edit-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: var(--agu-blue);
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.book-details p {
+  margin-bottom: 1rem;
+}
+
+.book-details button {
+  margin-top: 1.2rem;
+  padding: 0.7rem 1.2rem;
+  background: var(--agu-blue);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.book-details button:hover {
+  background: #002f73;
+}
